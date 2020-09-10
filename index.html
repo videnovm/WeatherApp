@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework - Weather app</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="">
+      <h1 class="heading">Weather Application</h1>
+      <p class="text1">Enter the city you want below:</p>
+      <div class="input">
+        <input type="text" placeholder="Search..." class="input_text">
+        <input type="submit" value="Submit" class="submit">
+      </div>
+    </div>
+    <section class="section" id="result"></section>
+    <div class="weather">
+        <h1 class="city" id="name"></h1>
+        <p class="temp"></p>
+        <p class="mintemp"></p>
+        <p class="desc"></p>
+    </div>
+    <p class="msg"></p>
+  </body>
+  <script src="main.js"></script>
+</html>
